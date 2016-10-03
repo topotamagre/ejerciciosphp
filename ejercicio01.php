@@ -15,7 +15,7 @@ $array1[6]="Sara";
 
 
 foreach ( $array1 as $nombre ){
-	echo '<tr></tr>' . $nombre;
+	 '<tr></tr>' . $nombre;
 
 }
 
