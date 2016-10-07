@@ -1,0 +1,9 @@
+
+create a new repository on the command line
+
+echo "# prueba" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:oscarmfe/prueba.git
+git push -u origin master

@@ -12,14 +12,9 @@ $array1[]="Oscar";
 $array1[3]="Pedro";
 $array1[]="Rafael";
 $array1[6]="Sara";
-
-
 foreach ( $array1 as $nombre ){
-	 '<tr></tr>' . $nombre;
-
+	echo '<tr></tr>' . $nombre;
 }
-
 var_dump($array1);
-
 ?>
 </body></html>
